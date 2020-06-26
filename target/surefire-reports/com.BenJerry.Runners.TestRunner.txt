@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.BenJerry.Runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 26.903 s <<< FAILURE! - in com.BenJerry.Runners.TestRunner
+Logo.Footer menu view for user  Time elapsed: 8.841 s  <<< ERROR!
+java.lang.NullPointerException
+

@@ -1,0 +1,4 @@
+com\BenJerry\testBase\BaseClass.class
+com\BenJerry\pages\LogoAndFooterPageElements.class
+com\BenJerry\Runners\TestRunner.class
+com\BenJerry\Steps\LogoAndFooterMenuSteps.class
