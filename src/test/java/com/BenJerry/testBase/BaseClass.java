@@ -9,10 +9,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+
+
 public class BaseClass {
 	
 	public static WebDriver driver;
 	public static Properties prop;
+	
+	
 	public static WebDriver initializeDriver() throws IOException {
 
 		prop = new Properties();
@@ -34,7 +38,7 @@ public class BaseClass {
 			driver = new FirefoxDriver();
 			// firefox code
 		} else if (browserName.equals("IE")) {
-//	IE code
+           //IE code
 		}
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -43,10 +47,12 @@ public class BaseClass {
 
 	}
 	
-	
-	public static void teardown() {
-		driver.close();
 
+	public static void teardown() {
+		if(driver!=null) {
+			driver.quit();
+		}
+		
 	}
 
 }

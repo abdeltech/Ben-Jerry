@@ -3,17 +3,28 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-06-26T03:27:07.129Z",
+        "start_timestamp": "2020-06-26T20:18:41.822Z",
         "line": 6,
         "name": "Validate Logo Picture",
         "description": "",
         "id": "logo;validate-logo-picture",
+        "after": [
+          {
+            "result": {
+              "duration": 719416800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 9776565000,
+              "duration": 9920344900,
               "status": "passed"
             },
             "line": 7,
@@ -25,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 7881113500,
+              "duration": 3299568500,
               "status": "passed"
             },
             "line": 8,
@@ -46,17 +57,28 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-26T03:27:24.798Z",
+        "start_timestamp": "2020-06-26T20:18:55.767Z",
         "line": 11,
         "name": "Footer menu view for user",
         "description": "",
         "id": "logo;footer-menu-view-for-user",
+        "after": [
+          {
+            "result": {
+              "duration": 690769500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 8645778100,
+              "duration": 10934094700,
               "status": "passed"
             },
             "line": 12,
@@ -69,7 +91,7 @@
           {
             "result": {
               "error_message": "java.lang.NullPointerException\r\n\tat com.BenJerry.Steps.LogoAndFooterMenuSteps.user_see_footer_menu_is_displayed(LogoAndFooterMenuSteps.java:63)\r\n\tat ✽.user see footer menu is displayed(file:src/test/resources/features/LogoAndFooter.feature:13)\r\n",
-              "duration": 189278500,
+              "duration": 479342900,
               "status": "failed"
             },
             "line": 13,

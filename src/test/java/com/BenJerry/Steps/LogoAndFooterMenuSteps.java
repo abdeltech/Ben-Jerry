@@ -48,13 +48,13 @@ public class LogoAndFooterMenuSteps extends BaseClass {
 		System.out.println("Step Test completed");
 
 		driver.switchTo().defaultContent();
-		teardown();
+
 
 	}
 
 	@Then("user see footer menu is displayed")
 	public void user_see_footer_menu_is_displayed(DataTable dashBoard) throws InterruptedException {
-
+		
 		driver.switchTo().frame(1);
 
 		List<String> expectedMenu = dashBoard.asList();
@@ -72,8 +72,7 @@ public class LogoAndFooterMenuSteps extends BaseClass {
 		Assert.assertTrue(actualMenu.equals(expectedMenu));
 
 		driver.switchTo().defaultContent();
-		teardown();
-
+		
 	}
 
 }
