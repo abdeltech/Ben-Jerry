@@ -3,7 +3,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-06-26T20:18:41.822Z",
+        "start_timestamp": "2020-06-26T20:30:03.131Z",
         "line": 6,
         "name": "Validate Logo Picture",
         "description": "",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 719416800,
+              "duration": 796407400,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9920344900,
+              "duration": 10238696300,
               "status": "passed"
             },
             "line": 7,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 3299568500,
+              "duration": 3328527400,
               "status": "passed"
             },
             "line": 8,
@@ -57,7 +57,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-26T20:18:55.767Z",
+        "start_timestamp": "2020-06-26T20:30:17.503Z",
         "line": 11,
         "name": "Footer menu view for user",
         "description": "",
@@ -65,7 +65,7 @@
         "after": [
           {
             "result": {
-              "duration": 690769500,
+              "duration": 1201124800,
               "status": "passed"
             },
             "match": {
@@ -78,7 +78,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10934094700,
+              "duration": 9150219100,
               "status": "passed"
             },
             "line": 12,
@@ -91,7 +91,7 @@
           {
             "result": {
               "error_message": "java.lang.NullPointerException\r\n\tat com.BenJerry.Steps.LogoAndFooterMenuSteps.user_see_footer_menu_is_displayed(LogoAndFooterMenuSteps.java:63)\r\n\tat ✽.user see footer menu is displayed(file:src/test/resources/features/LogoAndFooter.feature:13)\r\n",
-              "duration": 479342900,
+              "duration": 61171700,
               "status": "failed"
             },
             "line": 13,
@@ -108,8 +108,7 @@
                   "Jobs",
                   "Terms \u0026 Conditions",
                   "Privacy Policy",
-                  "Sitemap",
-                  "AdChoices"
+                  "Sitemap"
                 ]
               }
             ],
