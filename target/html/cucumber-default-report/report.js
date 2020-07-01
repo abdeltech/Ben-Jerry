@@ -79,7 +79,8 @@ formatter.step({
         "Jobs",
         "Terms \u0026 Conditions",
         "Privacy Policy",
-        "Sitemap"
+        "Sitemap",
+        "AdChoices"
       ]
     }
   ],

@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.BenJerry.Runners.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.339 s <<< FAILURE! - in com.BenJerry.Runners.TestRunner
-com.BenJerry.Runners.TestRunner  Time elapsed: 0.327 s  <<< ERROR!
-cucumber.runtime.CucumberException: You're not allowed to extend classes that define Step Definitions or hooks. class com.BenJerry.Steps.LogoAndFooterMenuSteps extends class com.BenJerry.testBase.BaseClass
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 25.738 s <<< FAILURE! - in com.BenJerry.Runners.TestRunner
+Logo.Footer menu view for user  Time elapsed: 10.404 s  <<< ERROR!
+java.lang.NullPointerException
 
